@@ -1,0 +1,9 @@
+mon-domaine-presensation
+mon-domaine-interaction
+- Port : 8080
+mon-domaine-metier
+- Port : 8081
+mon-domaine-config-serveur
+- Port : 8082
+mon-domaine-discovery-server
+- Port : 8083
