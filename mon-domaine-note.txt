@@ -1,7 +1,8 @@
 mon-domaine-presensation
 mon-domaine-interaction
-- Port : 8080
+- Port : 8084
 - url : http://localhost:8080/service/interaction/mon-domaine/sante
+		http://localhost:9999/service/interaction/mon-domaine/sante
 mon-domaine-metier
 - Port : 8081
 - url : http://localhost:9998/service/metier/mon-domaine/sante
@@ -9,3 +10,12 @@ mon-domaine-config-serveur
 - Port : 8082
 mon-domaine-discovery-server
 - Port : 8083
+
+mon-domaine-gateway-api
+- Port : 8080
+
+nt-account-manager
+- Port : 8085
+
+
+diff entre restemplate exchange, getforObject, getforEntity
