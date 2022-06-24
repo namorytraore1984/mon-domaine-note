@@ -1,0 +1,5 @@
+## deployer ppstgres sql
+docker run --name Postgres_1 --net keycloak-network -p 5432:5432 -e POSTGRES_PASSWORD=admin -d postgres
+
+## deployer keycloak
+docker run --name my-keycloak --net keycloak-network --env-file db_file.txt -p 8080:8080 jboss/keycloak
